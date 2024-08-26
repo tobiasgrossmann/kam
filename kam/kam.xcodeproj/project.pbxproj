@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44806812C71F31B000B67D3 /* kamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44806802C71F31B000B67D3 /* kamApp.swift */; };
+		A44806832C71F31B000B67D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44806822C71F31B000B67D3 /* ContentView.swift */; };
+		A44806852C71F31C000B67D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44806842C71F31C000B67D3 /* Assets.xcassets */; };
+		A44806882C71F31C000B67D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44806872C71F31C000B67D3 /* Preview Assets.xcassets */; };
+		A448068F2C71F3C7000B67D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448068E2C71F3C7000B67D3 /* SceneDelegate.swift */; };
+		A44806912C71F3F9000B67D3 /* KamasutraCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44806902C71F3F9000B67D3 /* KamasutraCatalogView.swift */; };
+		A44806972C71F43E000B67D3 /* KamasutraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44806962C71F43E000B67D3 /* KamasutraModel.swift */; };
+		A448069C2C71FF60000B67D3 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448069B2C71FF60000B67D3 /* RingView.swift */; };
+		A44806A02C7262CC000B67D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A448069E2C7262CC000B67D3 /* Localizable.strings */; };
+		A462BE3B2C7B2E1B002F4449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462BE3A2C7B2E1B002F4449 /* ContentView.swift */; };
+		A462BE3D2C7B2E1D002F4449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A462BE3C2C7B2E1D002F4449 /* Assets.xcassets */; };
+		A462BE402C7B2E1D002F4449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A462BE3F2C7B2E1D002F4449 /* Preview Assets.xcassets */; };
+		A462BE432C7B2E1D002F4449 /* PassionFit Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A462BE362C7B2E1B002F4449 /* PassionFit Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A462BE4B2C7B3500002F4449 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462BE4A2C7B3500002F4449 /* WorkoutManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A462BE412C7B2E1D002F4449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44806752C71F31B000B67D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A462BE352C7B2E1B002F4449;
+			remoteInfo = "PassionFit Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A462BE472C7B2E1D002F4449 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A462BE432C7B2E1D002F4449 /* PassionFit Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A448067D2C71F31B000B67D3 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44806802C71F31B000B67D3 /* kamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamApp.swift; sourceTree = "<group>"; };
+		A44806822C71F31B000B67D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A44806842C71F31C000B67D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44806872C71F31C000B67D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A448068E2C71F3C7000B67D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A44806902C71F3F9000B67D3 /* KamasutraCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamasutraCatalogView.swift; sourceTree = "<group>"; };
+		A44806962C71F43E000B67D3 /* KamasutraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamasutraModel.swift; sourceTree = "<group>"; };
+		A448069B2C71FF60000B67D3 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		A448069D2C722E68000B67D3 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
+		A448069F2C7262CC000B67D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A44806A12C726371000B67D3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A44806A22C726372000B67D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A44806A32C726373000B67D3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A44806A42C726395000B67D3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A462BE362C7B2E1B002F4449 /* PassionFit Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PassionFit Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A462BE3A2C7B2E1B002F4449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A462BE3C2C7B2E1D002F4449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A462BE3F2C7B2E1D002F4449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A462BE4A2C7B3500002F4449 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		A462BE4C2C7B5627002F4449 /* PassionFit Watch AppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PassionFit Watch AppDebug.entitlements"; sourceTree = "<group>"; };
+		A462BE4D2C7B64C6002F4449 /* PassionFit-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PassionFit-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A47AB0FB2C7A424D007AC9F4 /* app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "app-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A448067A2C71F31B000B67D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A462BE332C7B2E1B002F4449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44806742C71F31B000B67D3 = {
+			isa = PBXGroup;
+			children = (
+				A47AB0FB2C7A424D007AC9F4 /* app-Info.plist */,
+				A448069D2C722E68000B67D3 /* app.entitlements */,
+				A448067F2C71F31B000B67D3 /* kam */,
+				A462BE372C7B2E1B002F4449 /* PassionFit Watch App */,
+				A448067E2C71F31B000B67D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A448067E2C71F31B000B67D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A448067D2C71F31B000B67D3 /* app.app */,
+				A462BE362C7B2E1B002F4449 /* PassionFit Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A448067F2C71F31B000B67D3 /* kam */ = {
+			isa = PBXGroup;
+			children = (
+				A448068E2C71F3C7000B67D3 /* SceneDelegate.swift */,
+				A44806802C71F31B000B67D3 /* kamApp.swift */,
+				A462BE4A2C7B3500002F4449 /* WorkoutManager.swift */,
+				A44806902C71F3F9000B67D3 /* KamasutraCatalogView.swift */,
+				A44806822C71F31B000B67D3 /* ContentView.swift */,
+				A44806962C71F43E000B67D3 /* KamasutraModel.swift */,
+				A44806842C71F31C000B67D3 /* Assets.xcassets */,
+				A448069E2C7262CC000B67D3 /* Localizable.strings */,
+				A44806862C71F31C000B67D3 /* Preview Content */,
+				A448069B2C71FF60000B67D3 /* RingView.swift */,
+			);
+			path = kam;
+			sourceTree = "<group>";
+		};
+		A44806862C71F31C000B67D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A44806872C71F31C000B67D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A462BE372C7B2E1B002F4449 /* PassionFit Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A462BE4D2C7B64C6002F4449 /* PassionFit-Watch-App-Info.plist */,
+				A462BE4C2C7B5627002F4449 /* PassionFit Watch AppDebug.entitlements */,
+				A462BE3A2C7B2E1B002F4449 /* ContentView.swift */,
+				A462BE3C2C7B2E1D002F4449 /* Assets.xcassets */,
+				A462BE3E2C7B2E1D002F4449 /* Preview Content */,
+			);
+			path = "PassionFit Watch App";
+			sourceTree = "<group>";
+		};
+		A462BE3E2C7B2E1D002F4449 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A462BE3F2C7B2E1D002F4449 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A448067C2C71F31B000B67D3 /* app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A448068B2C71F31C000B67D3 /* Build configuration list for PBXNativeTarget "app" */;
+			buildPhases = (
+				A44806792C71F31B000B67D3 /* Sources */,
+				A448067A2C71F31B000B67D3 /* Frameworks */,
+				A448067B2C71F31B000B67D3 /* Resources */,
+				A462BE472C7B2E1D002F4449 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A462BE422C7B2E1D002F4449 /* PBXTargetDependency */,
+			);
+			name = app;
+			productName = kam;
+			productReference = A448067D2C71F31B000B67D3 /* app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A462BE352C7B2E1B002F4449 /* PassionFit Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A462BE442C7B2E1D002F4449 /* Build configuration list for PBXNativeTarget "PassionFit Watch App" */;
+			buildPhases = (
+				A462BE322C7B2E1B002F4449 /* Sources */,
+				A462BE332C7B2E1B002F4449 /* Frameworks */,
+				A462BE342C7B2E1B002F4449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PassionFit Watch App";
+			productName = "PassionFit Watch App";
+			productReference = A462BE362C7B2E1B002F4449 /* PassionFit Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44806752C71F31B000B67D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A448067C2C71F31B000B67D3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A462BE352C7B2E1B002F4449 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A44806782C71F31B000B67D3 /* Build configuration list for PBXProject "kam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				de,
+				fr,
+				it,
+			);
+			mainGroup = A44806742C71F31B000B67D3;
+			productRefGroup = A448067E2C71F31B000B67D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A448067C2C71F31B000B67D3 /* app */,
+				A462BE352C7B2E1B002F4449 /* PassionFit Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A448067B2C71F31B000B67D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44806882C71F31C000B67D3 /* Preview Assets.xcassets in Resources */,
+				A44806A02C7262CC000B67D3 /* Localizable.strings in Resources */,
+				A44806852C71F31C000B67D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A462BE342C7B2E1B002F4449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A462BE402C7B2E1D002F4449 /* Preview Assets.xcassets in Resources */,
+				A462BE3D2C7B2E1D002F4449 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44806792C71F31B000B67D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44806912C71F3F9000B67D3 /* KamasutraCatalogView.swift in Sources */,
+				A462BE4B2C7B3500002F4449 /* WorkoutManager.swift in Sources */,
+				A44806972C71F43E000B67D3 /* KamasutraModel.swift in Sources */,
+				A44806832C71F31B000B67D3 /* ContentView.swift in Sources */,
+				A448069C2C71FF60000B67D3 /* RingView.swift in Sources */,
+				A44806812C71F31B000B67D3 /* kamApp.swift in Sources */,
+				A448068F2C71F3C7000B67D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A462BE322C7B2E1B002F4449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A462BE3B2C7B2E1B002F4449 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A462BE422C7B2E1D002F4449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A462BE352C7B2E1B002F4449 /* PassionFit Watch App */;
+			targetProxy = A462BE412C7B2E1D002F4449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A448069E2C7262CC000B67D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A448069F2C7262CC000B67D3 /* en */,
+				A44806A12C726371000B67D3 /* fr */,
+				A44806A22C726372000B67D3 /* de */,
+				A44806A32C726373000B67D3 /* es */,
+				A44806A42C726395000B67D3 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A44806892C71F31C000B67D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "e need your permission to access your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need your permission to update your health data.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A448068A2C71F31C000B67D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "e need your permission to access your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need your permission to update your health data.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A448068C2C71F31C000B67D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = app.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kam/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Q6U4U74YG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "app-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to access and update your health data to track your Kamasutra training progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs to access and update your health data to track your Kamasutra training progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobiasgrossmann.kam.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PassionFit;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A448068D2C71F31C000B67D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = app.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kam/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Q6U4U74YG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "app-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to access and update your health data to track your Kamasutra training progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs to access and update your health data to track your Kamasutra training progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobiasgrossmann.kam.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PassionFit;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A462BE452C7B2E1D002F4449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "PassionFit Watch App/PassionFit Watch AppDebug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassionFit Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6U4U74YG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PassionFit-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PassionFit;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "e need your permission to access your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need your permission to update your health data.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tobiasgrossmann.kam.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobiasgrossmann.kam.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A462BE462C7B2E1D002F4449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassionFit Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6U4U74YG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PassionFit-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PassionFit;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "e need your permission to access your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need your permission to update your health data.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tobiasgrossmann.kam.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobiasgrossmann.kam.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44806782C71F31B000B67D3 /* Build configuration list for PBXProject "kam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44806892C71F31C000B67D3 /* Debug */,
+				A448068A2C71F31C000B67D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A448068B2C71F31C000B67D3 /* Build configuration list for PBXNativeTarget "app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A448068C2C71F31C000B67D3 /* Debug */,
+				A448068D2C71F31C000B67D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A462BE442C7B2E1D002F4449 /* Build configuration list for PBXNativeTarget "PassionFit Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A462BE452C7B2E1D002F4449 /* Debug */,
+				A462BE462C7B2E1D002F4449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44806752C71F31B000B67D3 /* Project object */;
+}
